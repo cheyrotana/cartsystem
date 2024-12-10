@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+#include <fstream>
 using namespace std;
 class addtocart
 {
@@ -27,7 +27,8 @@ class addtocart
                 {
                     cart.erase(cart.begin()+i);//removing the product from the cart
                 }
-                else {
+                else 
+                {
                     cout << "Product not found in the cart."<<endl;
                 }
             }
